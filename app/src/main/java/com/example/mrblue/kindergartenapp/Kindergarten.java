@@ -34,5 +34,6 @@ public class Kindergarten extends ActionBarActivity {
             startActivity(i);
         }
     }
-
+public void checking()
+{//checked}
 }
