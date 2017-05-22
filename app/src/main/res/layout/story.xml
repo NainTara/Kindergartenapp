@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/story">
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Story 1"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_purple"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 2"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_purple"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 3"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_purple"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 4"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story 5"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginTop="57dp" />
+
+</RelativeLayout>

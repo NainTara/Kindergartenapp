@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/manner" >
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="29dp"
+        android:text="Manner 1"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Manner 2"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light"
+        android:layout_below="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button13"
+        android:layout_below="@+id/button13"
+        android:layout_marginTop="50dp"
+        android:text="Manner 3"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:text="Manner 4"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_toEndOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manner 5"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/button13"
+        android:layout_alignBottom="@+id/button13"
+        android:layout_alignStart="@+id/button15" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manner 6"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignBaseline="@+id/button14"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignStart="@+id/button16" />
+
+</RelativeLayout>
